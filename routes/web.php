@@ -24,5 +24,3 @@ Route::get('/visit', 'SignupController@visit')->name('visit');
 Route::post('/visit', 'SignupController@vupdate');
 
 Route::get('/upcoming', 'SignupController@upcoming')->name('upcoming');
-
-Route::get('/api/missed', 'ApiController@miss');
