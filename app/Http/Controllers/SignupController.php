@@ -62,4 +62,5 @@ class SignupController extends Controller
         $patients = $patient->whereBetween('deadline', array($today, $countdate))->get();
         return view('upcoming', compact('patients', 'patients'));
     }
+
 }

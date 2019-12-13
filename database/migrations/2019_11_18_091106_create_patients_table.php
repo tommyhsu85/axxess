@@ -20,6 +20,7 @@ class CreatePatientsTable extends Migration
             $table->char('phone', 100);
             $table->date('start_date');
             $table->date('deadline');
+            $table->char('follow_up', 10);
             $table->timestamps();
         });
     }
